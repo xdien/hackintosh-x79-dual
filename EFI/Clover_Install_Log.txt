@@ -1,0 +1,79 @@
+
+Clover EFI installer log - Mon Apr  8 22:43:23 PDT 2019
+Installer version: v2.4k r4428 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *250.1 GB   disk0
+   1:               Windows_NTFS                         84.4 GB    disk0s1
+   2:                 DOS_FAT_16                         84.9 GB    disk0s2
+   3:               Windows_NTFS New Volume              80.7 GB    disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         82.1 GB    disk1s2
+   3:       Microsoft Basic Data EFI                     499.1 MB   disk1s3
+   4:                  Apple_HFS Untitled                417.1 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +82.1 GB    disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume Untitled                37.1 GB    disk2s1
+   2:                APFS Volume Preboot                 45.2 MB    disk2s2
+   3:                APFS Volume Recovery                516.9 MB   disk2s3
+   4:                APFS Volume VM                      9.7 GB     disk2s4
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +95.4 MB    disk3
+   1:                  Apple_HFS MEGAsync                95.4 MB    disk3s1
+
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +58.7 MB    disk4
+   1:                  Apple_HFS BitTorrent Installer    58.7 MB    disk4s1
+
+/dev/disk5 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +4.2 MB     disk5
+   1:                  Apple_HFS Installer               4.2 MB     disk5s1
+
+/dev/disk6 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            iZip                   +41.0 MB    disk6
+
+/dev/disk7 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        +5.4 GB     disk7
+   1:        Apple_partition_map                         32.3 KB    disk7s1
+   2:                  Apple_HFS macOS 10.13.6 High S... 5.4 GB     disk7s2
+
+/dev/disk8 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *7.9 GB     disk8
+   1:                        EFI EFI                     209.7 MB   disk8s1
+   2:                  Apple_HFS Install macOS High S... 7.5 GB     disk8s2
+
+======================================================
+Backing up EFI files
+
+No Active Partition
+
+Stage 0 - Writting boot0af to /dev/disk8
+/Volumes/Install macOS High Sierra/usr/local/bin/fdisk440 -u -f /Volumes/Install macOS High Sierra/usr/standalone/i386/boot0af -y /dev/disk8
+
+Stage 1 - Writting boot1f32 to /dev/rdisk8s1
+dd if=/dev/rdisk8s1 count=1 bs=512 of=/tmp/origbs
+boot volume format is FAT32
+cp /tmp/boot1f32 /tmp/newbs
+dd if=/tmp/origbs of=/tmp/newbs skip=3 seek=3 bs=1 count=87 conv=notrunc
+dd if=/tmp/newbs of=/dev/rdisk8s1
+
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
