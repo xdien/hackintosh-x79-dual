@@ -27,7 +27,7 @@
 				<key>LPC</key>
 				<false/>
 				<key>NVidia</key>
-				<true/>
+				<false/>
 				<key>SATA</key>
 				<false/>
 				<key>SmBUS</key>
@@ -39,8 +39,14 @@
 			</dict>
 			<key>Fixes</key>
 			<dict>
+				<key>FixHDA</key>
+				<true/>
+				<key>FixRTC</key>
+				<true/>
 				<key>FixShutdown</key>
 				<false/>
+				<key>FixUSB</key>
+				<true/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -52,13 +58,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					cA1DUFVTQ0swAENVVTA=
-					</data>
+					<data>cA1DUFVTQ0swAENVVTA=</data>
 					<key>Replace</key>
-					<data>
-					AAAAAAAAAAAAAAAAAAA=
-					</data>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -66,13 +68,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					cA1DUFVTQ0sxAENVVTE=
-					</data>
+					<data>cA1DUFVTQ0sxAENVVTE=</data>
 					<key>Replace</key>
-					<data>
-					AAAAAAAAAAAAAAAAAAA=
-					</data>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -80,13 +78,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					cA1DUFVTQ0syAENVVTI=
-					</data>
+					<data>cA1DUFVTQ0syAENVVTI=</data>
 					<key>Replace</key>
-					<data>
-					AAAAAAAAAAAAAAAAAAA=
-					</data>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -94,13 +88,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					cA1DUFVTQ0szAENVVTM=
-					</data>
+					<data>cA1DUFVTQ0szAENVVTM=</data>
 					<key>Replace</key>
-					<data>
-					AAAAAAAAAAAAAAAAAAA=
-					</data>
+					<data>AAAAAAAAAAAAAAAAAAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -108,13 +98,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RVVTQg==
-					</data>
+					<data>RVVTQg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -122,13 +108,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
+					<data>SERFRg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -136,13 +118,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					VVNCRQ==
-					</data>
+					<data>VVNCRQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -150,13 +128,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					QzEwMAAQBAE=
-					</data>
+					<data>QzEwMAAQBAE=</data>
 					<key>Replace</key>
-					<data>
-					QzEwMBAQBAA=
-					</data>
+					<data>QzEwMBAQBAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -164,13 +138,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					QzEwMQAQBAA=
-					</data>
+					<data>QzEwMQAQBAA=</data>
 					<key>Replace</key>
-					<data>
-					QzEwMREQBAA=
-					</data>
+					<data>QzEwMREQBAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -178,13 +148,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					QzEwMgAQBAA=
-					</data>
+					<data>QzEwMgAQBAA=</data>
 					<key>Replace</key>
-					<data>
-					QzEwMhIQBAA=
-					</data>
+					<data>QzEwMhIQBAA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -192,13 +158,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					BEMxMDMAEAQ=
-					</data>
+					<data>BEMxMDMAEAQ=</data>
 					<key>Replace</key>
-					<data>
-					BEMxMDMTEAQ=
-					</data>
+					<data>BEMxMDMTEAQ=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -206,13 +168,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SwRDMTA0ABA=
-					</data>
+					<data>SwRDMTA0ABA=</data>
 					<key>Replace</key>
-					<data>
-					SwRDMTA0FBA=
-					</data>
+					<data>SwRDMTA0FBA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -220,13 +178,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					g0sEQzEwNQAQBAAABghfSA==
-					</data>
+					<data>g0sEQzEwNQAQBAAABghfSA==</data>
 					<key>Replace</key>
-					<data>
-					g0sEQzEwNRUQBAAABghfSA==
-					</data>
+					<data>g0sEQzEwNRUQBAAABghfSA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -234,13 +188,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					QzEwNgAQBAAABghfSElEDQ==
-					</data>
+					<data>QzEwNgAQBAAABghfSElEDQ==</data>
 					<key>Replace</key>
-					<data>
-					QzEwNhYQBAAABghfSElEDQ==
-					</data>
+					<data>QzEwNhYQBAAABghfSElEDQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -248,13 +198,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					BEMxMDcAEAQAAAYIX0hJRA==
-					</data>
+					<data>BEMxMDcAEAQAAAYIX0hJRA==</data>
 					<key>Replace</key>
-					<data>
-					BEMxMDcXEAQAAAYIX0hJRA==
-					</data>
+					<data>BEMxMDcXEAQAAAYIX0hJRA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -262,13 +208,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SwRDMTA4ABAEAAAGCF9ISQ==
-					</data>
+					<data>SwRDMTA4ABAEAAAGCF9ISQ==</data>
 					<key>Replace</key>
-					<data>
-					SwRDMTA4GBAEAAAGCF9ISQ==
-					</data>
+					<data>SwRDMTA4GBAEAAAGCF9ISQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -276,13 +218,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					pAoPW4NLBEMxMDkAEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMDkAEAQAAA==</data>
 					<key>Replace</key>
-					<data>
-					pAoPW4NLBEMxMDkZEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMDkZEAQAAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -290,13 +228,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					W4NLBEMxMEEAEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMEEAEAQAAAYIXw==</data>
 					<key>Replace</key>
-					<data>
-					W4NLBEMxMEEaEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMEEaEAQAAAYIXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -304,13 +238,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					D1uDSwRDMTBCABAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTBCABAEAAAGCA==</data>
 					<key>Replace</key>
-					<data>
-					D1uDSwRDMTBCGxAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTBCGxAEAAAGCA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -318,13 +248,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Cg9bg0sEQzEwQwAQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzEwQwAQBAAABg==</data>
 					<key>Replace</key>
-					<data>
-					Cg9bg0sEQzEwQxwQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzEwQxwQBAAABg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -332,13 +258,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					g0sEQzEwRAAQBAAABghfSA==
-					</data>
+					<data>g0sEQzEwRAAQBAAABghfSA==</data>
 					<key>Replace</key>
-					<data>
-					g0sEQzEwRB0QBAAABghfSA==
-					</data>
+					<data>g0sEQzEwRB0QBAAABghfSA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -346,13 +268,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					W4NLBEMxMEUAEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMEUAEAQAAAYIXw==</data>
 					<key>Replace</key>
-					<data>
-					W4NLBEMxMEUeEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMEUeEAQAAAYIXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -360,13 +278,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					D1uDSwRDMTBGABAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTBGABAEAAAGCA==</data>
 					<key>Replace</key>
-					<data>
-					D1uDSwRDMTBGHxAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTBGHxAEAAAGCA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -374,13 +288,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Cg9bg0sEQzExMAAQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExMAAQBAAABg==</data>
 					<key>Replace</key>
-					<data>
-					Cg9bg0sEQzExMI4QBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExMI4QBAAABg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -388,13 +298,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					pAoPW4NLBEMxMTEAEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTEAEAQAAA==</data>
 					<key>Replace</key>
-					<data>
-					pAoPW4NLBEMxMTGPEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTGPEAQAAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -402,13 +308,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					W4NLBEMxMTIAEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMTIAEAQAAAYIXw==</data>
 					<key>Replace</key>
-					<data>
-					W4NLBEMxMTKQEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMTKQEAQAAAYIXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -416,13 +318,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					D1uDSwRDMTEzABAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTEzABAEAAAGCA==</data>
 					<key>Replace</key>
-					<data>
-					D1uDSwRDMTEzkRAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTEzkRAEAAAGCA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -430,13 +328,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Cg9bg0sEQzExNAAQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExNAAQBAAABg==</data>
 					<key>Replace</key>
-					<data>
-					Cg9bg0sEQzExNJIQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExNJIQBAAABg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -444,13 +338,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					pAoPW4NLBEMxMTUAEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTUAEAQAAA==</data>
 					<key>Replace</key>
-					<data>
-					pAoPW4NLBEMxMTWTEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTWTEAQAAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -458,13 +348,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					W4NLBEMxMTYAEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMTYAEAQAAAYIXw==</data>
 					<key>Replace</key>
-					<data>
-					W4NLBEMxMTaUEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMTaUEAQAAAYIXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -472,13 +358,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					D1uDSwRDMTE3ABAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTE3ABAEAAAGCA==</data>
 					<key>Replace</key>
-					<data>
-					D1uDSwRDMTE3lRAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTE3lRAEAAAGCA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -486,13 +368,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Cg9bg0sEQzExOAAQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExOAAQBAAABg==</data>
 					<key>Replace</key>
-					<data>
-					Cg9bg0sEQzExOJYQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExOJYQBAAABg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -500,13 +378,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					pAoPW4NLBEMxMTkAEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTkAEAQAAA==</data>
 					<key>Replace</key>
-					<data>
-					pAoPW4NLBEMxMTmXEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMTmXEAQAAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -514,13 +388,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					W4NLBEMxMUEAEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMUEAEAQAAAYIXw==</data>
 					<key>Replace</key>
-					<data>
-					W4NLBEMxMUGYEAQAAAYIXw==
-					</data>
+					<data>W4NLBEMxMUGYEAQAAAYIXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -528,13 +398,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					D1uDSwRDMTFCABAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTFCABAEAAAGCA==</data>
 					<key>Replace</key>
-					<data>
-					D1uDSwRDMTFCmRAEAAAGCA==
-					</data>
+					<data>D1uDSwRDMTFCmRAEAAAGCA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -542,13 +408,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Cg9bg0sEQzExQwAQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExQwAQBAAABg==</data>
 					<key>Replace</key>
-					<data>
-					Cg9bg0sEQzExQ5oQBAAABg==
-					</data>
+					<data>Cg9bg0sEQzExQ5oQBAAABg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -556,27 +418,14 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					pAoPW4NLBEMxMUQAEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMUQAEAQAAA==</data>
 					<key>Replace</key>
-					<data>
-					pAoPW4NLBEMxMUSbEAQAAA==
-					</data>
+					<data>pAoPW4NLBEMxMUSbEAQAAA==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<false/>
 		<key>HaltEnabler</key>
@@ -588,11 +437,11 @@
 			<key>DropOem</key>
 			<true/>
 			<key>EnableC6</key>
-			<true/>
+			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<false/>
+				<true/>
 				<key>PStates</key>
 				<true/>
 				<key>PluginType</key>
@@ -613,7 +462,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nvda_drv=1 npci=0x3000 -liludbgall kext-dev-mode=1 rootless=0 keepsyms=1 -alcbeta -v -lilubetaall -xcpm_ipi dart=1</string>
+		<string>npci=0x2000 kext-dev-mode=1 rootless=0 keepsyms=1 -alcbeta -lilubetaall -xcpm_ipi dart=1 -no_compat_check agdpmod=pikera shikigva=40</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -633,6 +482,8 @@
 	<dict>
 		<key>QEMU</key>
 		<false/>
+		<key>TDP</key>
+		<integer>80</integer>
 		<key>Type</key>
 		<string>0x0a01</string>
 		<key>UseARTFrequency</key>
@@ -734,6 +585,8 @@
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
+		<key>ig-platform-id</key>
+		<string>0x3E920003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -759,15 +612,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				ILniAAAADzA=
-				</data>
+				<data>ILniAAAADzA=</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				ILniAAAAkJA=
-				</data>
+				<data>ILniAAAAkJA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -775,15 +624,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g8PEg/si
-				</data>
+				<data>g8PEg/si</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				g8O8g/si
-				</data>
+				<data>g8O8g/si</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -791,15 +636,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				vgIAAAAx0uhs/P//
-				</data>
+				<data>vgIAAAAx0uhs/P//</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				vgIAAAAx0pCQkJCQ
-				</data>
+				<data>vgIAAAAx0pCQkJCQ</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -807,15 +648,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				vgcAAAAx0uiU/P//
-				</data>
+				<data>vgcAAAAx0uiU/P//</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				vgcAAAAx0pCQkJCQ
-				</data>
+				<data>vgcAAAAx0pCQkJCQ</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -828,17 +665,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -846,25 +679,19 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				QVBQTEUgU1NEAA==
-				</data>
+				<data>QVBQTEUgU1NEAA==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAA==
-				</data>
+				<data>AAAAAAAAAAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AXRh
-				</data>
+				<data>AXRh</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -872,17 +699,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				Aeth
-				</data>
+				<data>Aeth</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				yXQMDzKD4B9CiUQ7
-				</data>
+				<data>yXQMDzKD4B9CiUQ7</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -890,17 +713,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				yesMDzKD4B9CiUQ7
-				</data>
+				<data>yesMDzKD4B9CiUQ7</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				dRG5
-				</data>
+				<data>dRG5</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -908,17 +727,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				6xG5
-				</data>
+				<data>6xG5</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				yXQVDzIl/w8AAEg=
-				</data>
+				<data>yXQVDzIl/w8AAEg=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -926,17 +741,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				yesVDzIl/w8AAEg=
-				</data>
+				<data>yesVDzIl/w8AAEg=</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				/w+ELQ==
-				</data>
+				<data>/w+ELQ==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -944,17 +755,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				/w+FLQ==
-				</data>
+				<data>/w+FLQ==</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AQABD4Q=
-				</data>
+				<data>AQABD4Q=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -962,17 +769,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				AQABD4U=
-				</data>
+				<data>AQABD4U=</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				PnU4
-				</data>
+				<data>PnU4</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -980,17 +783,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				PpCQ
-				</data>
+				<data>PpCQ</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				/w+E0w==
-				</data>
+				<data>/w+E0w==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -998,17 +797,13 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				/w+F0w==
-				</data>
+				<data>/w+F0w==</data>
 			</dict>
 			<dict>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				yXQUDzIl/w8AAGs=
-				</data>
+				<data>yXQUDzIl/w8AAGs=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -1016,9 +811,21 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCPUPowerManagement</string>
 				<key>Replace</key>
-				<data>
-				yesUDzIl/w8AAGs=
-				</data>
+				<data>yesUDzIl/w8AAGs=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB 10.13.4+ by PMHeart</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPD4MDBQAA</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/sPkJCQkJCQ</data>
 			</dict>
 		</array>
 	</dict>
@@ -1083,10 +890,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NoCaches</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
